@@ -1,16 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
-{{>navbar}}
+
+    {{>navbar}}
+
+    {{!-- Hero Section start --}}
+    <div class="container-fluid mt-5">
+
+        <div class="row">
+            <div class=" col-md-10 col-12 mx-auto">
+                <div class="row">
+
+
+                    {{!-- Left side --}}
+                    <div class=" col-md-6 col-12 order-md-0 order-1 hero-text d-flex justify-content-center align-items-start flex-column ">
+                        <h1>WE WILL HELP YOU TO</h1>
+                        <h1>GROW OUR BUSINESS</h1>
+                        <p>We are the team of <span class="bold-style">professional Devloper</span></p>
+                        <button class="btn btn-primary">Read More</button>
+
+
+                    </div>
+                    {{!-- Right side --}}
+
+                    <div class=" col-md-6 col-12  hero-text order-md-1 order-0">
+
+                        <figure>
+                            <img src="images/first.png" height="500px"  alt="HeroSection_image">
+
+
+                        </figure>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    {{!-- Hero section end --}}
+
+
+
+
+
+
+
 
     <script src="../jq/jquery.js" type="text/javascript"></script>
     <script src="../js/bootstrap.js" type="text/javascript"></script>
 </body>
+
 </html>

@@ -8,7 +8,7 @@ const port=process.env.PORT ||3000;
 
 
 // setting the path
-const staticpath=path.join(__dirname,"../pubic");
+const staticpath=path.join(__dirname,"../public");
 const templatepath=path.join(__dirname,"../templates/views");
 const pattialpath=path.join(__dirname,"../templates/partials");
 
