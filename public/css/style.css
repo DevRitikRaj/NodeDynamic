@@ -218,13 +218,13 @@ label {
   margin: 10rem 0;
 }
 
-label {
+/* label {
   margin-top: 2rem;
   margin-bottom: 0;
-}
+} */
 
 .form-control {
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   font-size: 1.7rem;
   font-weight: 600;
 }
