@@ -37,6 +37,11 @@ const userSchema=mongoose.Schema({
         required:true,
         minLength:3
 
+    },
+    
+    date:{
+        type:Date,
+        default:Date.now
     }
 
 
